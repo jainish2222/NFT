@@ -1,0 +1,23 @@
+.button{
+    padding: 15px 50px;
+    /* margin-left: 30px; */
+    font-size: 18px;
+    font-weight: 600;
+    background-color: aqua;
+    border-radius: 60px;
+    width: max-content;
+    cursor: pointer;
+}
+.primary-btn{
+    background: var(--text-gradient-bg);
+    background: var(--text-gradient-1);
+    color: black;
+    /* var(--btn-bg-s) -- cyan*/ 
+    /* var(--btn-bg) -- purple*/
+}
+.secondary-btn{
+    color: black;
+    background-color: var(--btn-bg);
+    background: var(--text-gradient-bg);
+    background: var(--text-gradient-1);
+}

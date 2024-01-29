@@ -1,0 +1,29 @@
+.Trandingnfts{
+ padding: 100px 0px;
+ position: relative;
+ /* margin: auto; */
+}
+.tn-title{
+   font-size: 50px;
+   font-weight: 700;
+   text-transform:uppercase;
+
+}
+.tn-bg-blur{
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    filter:blur(200px);
+    position:absolute;
+    /* filter: blur(1.5em); */
+    z-index: -99;
+    left: 52%;
+    top: 36%;
+    transform: translate(-60%);
+   }
+   .tn-title{
+      margin-bottom:130px;
+   }
+   .btn-tc{
+      margin: 60px;
+   }

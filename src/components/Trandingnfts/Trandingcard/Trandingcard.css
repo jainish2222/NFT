@@ -1,0 +1,49 @@
+.tc-banner{
+    width: 320px;
+    height:320px;
+    border-radius: 18px;
+    
+}
+.trendingcard{
+    flex-direction: column;
+}
+.tc-inner-wrapper{
+    background: var(--text-gradient-1);
+    padding: 2px;
+    border-radius: 18px;
+}
+.tc-content{
+    background-color: var(--background);
+    border-radius: 18px;
+    padding: 18px;
+    
+}
+.tc-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 16px 0px;
+}
+.tc-logo{
+    
+    height: 60px;
+    border-radius: 8px;
+    margin-right: 1px;
+}
+.tc-ui-left{
+    display: flex;
+
+}
+.name1{
+font-size: 20px;
+font-weight: 600;
+text-transform: capitalize;
+}
+.handle1{
+ font-size: 15px;
+ opacity: 0.7;
+}
+.tc-solana-logo{
+    height: 50px;
+}
